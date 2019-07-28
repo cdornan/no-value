@@ -1,0 +1,25 @@
+name:                no-value
+version:             1.0.0.0
+github:              "cdornan/no-value"
+license:             BSD3
+author:              "Chris Dornan"
+maintainer:          "chris@chrisdornan.com"
+copyright:           "2019 Chris Dornan"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            A type class for choosing sentinel-like values
+category:            Data
+
+description:         Please see the README on GitHub at <https://github.com/cdornan/no-value#readme>
+
+dependencies:
+- base >= 4.10 && < 10
+
+ghc-options:
+- -Wall
+
+library:
+  source-dirs: src
